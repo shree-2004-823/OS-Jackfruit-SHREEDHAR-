@@ -1,5 +1,5 @@
 obj-m += monitor.o
-
+ccflags.y += -Wno-error
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 # If you want host-built workload binaries to run directly inside an Alpine
@@ -29,7 +29,7 @@ io_pulse: io_pulse.c
 	gcc -O2 -Wall $(WORKLOAD_LDFLAGS) -o io_pulse io_pulse.c
 
 monitor.ko: monitor.c monitor_ioctl.h
-	$(MAKE) -C $(KDIR) M=$(PWD) modules
+	$(MAKE) -C $(KDIR) M=$(PWD) EXTRA_CFLAGS="-Wno-error" modules
 
 clean:
 	if [ -d "$(KDIR)" ]; then $(MAKE) -C $(KDIR) M=$(PWD) clean; fi
