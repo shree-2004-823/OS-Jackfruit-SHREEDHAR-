@@ -5,7 +5,7 @@
 ## 1. 👥 Team Information
 
 **Name:**
-(SHREEDHAR R && LAKSHITH)
+(SHREEDHAR R && LAKSHEETH)
 
 **SRN:**
 (PES2UG25CS823 && PES2UG25CS819)
