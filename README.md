@@ -5,10 +5,10 @@
 ## 1. 👥 Team Information
 
 **Name:**
-(AKASH PAWAR && ADITYA BASAVARAJ JAMBAGI)
+(SHREEDHAR R && LAKSHITH)
 
 **SRN:**
-(PES2UG24CS041 && PES2UG24CS030)
+(PES2UG25CS823 && PES2UG25CS819)
 
 ---
 
@@ -18,7 +18,7 @@ Follow the steps below to set up the project environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/shivangjhalani/OS-Jackfruit.git
+git clone https://github.com/shree-2004-823/OS-Jackfruit-SHREEDHAR-.git
 cd OS-Jackfruit/boilerplate
 
 # Build the project
@@ -122,7 +122,7 @@ sudo rmmod monitor
 
 **Description:** Shows successful creation of `/dev/container_monitor` after loading kernel module.
 
-![alt text](screenshots/1.jpeg)
+![alt text](screenshots/1.png)
 
 ---
 
@@ -130,7 +130,7 @@ sudo rmmod monitor
 
 **Description:** Demonstrates successful creation of two containers (`alpha` and `beta`) with supervisor running.
 
-![alt text](screenshots/2.jpeg)
+![alt text](screenshots/2.png)
 
 ---
 
@@ -138,7 +138,7 @@ sudo rmmod monitor
 
 **Description:** Displays active containers along with their respective PIDs.
 
-![alt text](screenshots/3.jpeg)
+![alt text](screenshots/3.png)
 
 ---
 
@@ -146,7 +146,7 @@ sudo rmmod monitor
 
 **Description:** Shows log file output generated for container execution.
 
-![alt text](screenshots/4.jpeg)
+![alt text](screenshots/4.png)
 
 ---
 
@@ -154,7 +154,7 @@ sudo rmmod monitor
 
 **Description:** Kernel log showing warning when container exceeds soft memory limit.
 
-![alt text](screenshots/5.jpeg)
+![alt text](screenshots/5.png)
 
 ---
 
@@ -162,7 +162,7 @@ sudo rmmod monitor
 
 **Description:** Kernel log showing container termination when hard limit is exceeded.
 
-![alt text](screenshots/6.jpeg)
+![alt text](screenshots/6.png)
 
 ---
 
@@ -170,7 +170,7 @@ sudo rmmod monitor
 
 **Description:** Output of `stop` command confirming container termination.
 
-![alt text](screenshots/7.jpeg)
+![alt text](screenshots/7.png)
 
 ---
 
@@ -178,7 +178,7 @@ sudo rmmod monitor
 
 **Description:** Confirms proper cleanup (no `<defunct>` processes present).
 
-![alt text](screenshots/8.jpeg)
+![alt text](screenshots/8.png)
 ---
 
 ## 5. ⚙️ Engineering Analysis
